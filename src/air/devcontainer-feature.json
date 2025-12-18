@@ -1,0 +1,20 @@
+{
+  "id": "air",
+  "version": "1.0.0",
+  "name": "air (via GitHub Release)",
+  "documentationURL": "http://github.com/devcontainers-extra/features/tree/main/src/air",
+  "description": "",
+  "options": {
+    "version": {
+      "default": "latest",
+      "description": "Live reload for Go apps",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers-extra/features/gh-release"
+  ]
+}
